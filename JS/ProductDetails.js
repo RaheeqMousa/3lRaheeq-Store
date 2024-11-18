@@ -121,36 +121,6 @@ const displayProducts=function(){
         displayDolls();
 
 }
-
-// /*.........................................Display ALL PRODUCTS...........................................*/
-
-// const displayAllProducts=function (page=1){
-//     let data = ``;
-
-//     const total_number_of_products=sweaters.length+ dolls.length+ yarns.length+ scarves.length+ hooks.length;
-
-//     if(sweaters.length==0 && dolls.length==0 && yarns.length==0 && scarves.length==0 && hooks.length==0){
-//         document.querySelector('.products .container').innerHTML = `
-//         <div class="d-flex justify-content-center align-items-center">
-//         <img src="Images/products/no products yet.WEBP" alt="cartoon bear saying to products yet" />
-//         </div>`;
-//         return;
-//     }
-
-//     for(let i=(page - 1) * 10;i<page * 10 && i<all.length;i++){
-//             data += `
-//                 <div class="col-12 col-xxl-4 mb-3">
-//                 <img src='${all[i]}' alt='product Image' class="img-fluid"/>
-//                 </div>`;
-//     }
-
-//     document.querySelector('.all-procucts .row').innerHTML = data;
-
-
-//     productsPagination(page,Math.ceil((total_number_of_products/10)),"all");
-
-// }
-
 /*.........................................Display Sweaters...........................................*/
 const displaySweaters=function (page=1){
     let data = ``;
@@ -158,7 +128,7 @@ const displaySweaters=function (page=1){
     if(sweaters.length==0){
         document.querySelector('.products .container').innerHTML = `
         <div class="d-flex justify-content-center align-items-center">
-        <img src="Images/products/no products yet.WEBP" alt="cartoon bear saying to products yet class="images" />
+        <img src="Images/products/no\ products\ yet.WEBP" alt="cartoon bear saying to products yet class="images" />
         </div>`;
         return;
     }
@@ -183,7 +153,7 @@ const displayScarves= function (page=1){
     if(scarves.length==0){
         document.querySelector('.products .container').innerHTML = `
         <div class="d-flex justify-content-center align-items-center">
-        <img src="Images/products/no products yet.WEBP" alt="cartoon bear saying to products yet" class="images />
+        <img src="Images/products/no\ products\ yet.WEBP" alt="cartoon bear saying to products yet" class="images />
         </div>`;
         return;
     }
@@ -207,7 +177,7 @@ const displayDolls= function (page=1){
     if(dolls.length==0){
         document.querySelector('.products .container').innerHTML = `
         <div class="d-flex justify-content-center align-items-center">
-        <img src="Images/products/no products yet.WEBP" alt="cartoon bear saying to products yet" class="images" />
+        <img src="Images/products/no\ products\ yet.WEBP" alt="cartoon bear saying to products yet" class="images" />
         </div>`;
         return;
     }
@@ -230,7 +200,7 @@ const displayHooks= function (page=1){
     if(hooks.length==0){
         document.querySelector('.products .container').innerHTML = `
         <div class="d-flex justify-content-center align-items-center">
-        <img src="Images/products/no products yet.WEBP" alt="cartoon bear saying to products yet" class="images" />
+        <img src="Images/products/no\ products\ yet.WEBP" alt="cartoon bear saying to products yet" class="images" />
         </div>`;
         return;
     }
@@ -252,7 +222,7 @@ const displayYarns= function (page=1){
     if(yarns.length==0){
         document.querySelector('.products .container').innerHTML = `
         <div class="d-flex justify-content-center align-items-center">
-        <img src="Images/products/no products yet.WEBP" alt="cartoon bear saying to products yet" class="images"/>
+        <img src="Images/products/no\ products\ yet.WEBP" alt="cartoon bear saying to products yet" class="images"/>
         </div>`;
         return;
     }
