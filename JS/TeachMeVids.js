@@ -56,7 +56,7 @@ const getDollsPhotos = function() {
 
     if(imgs.length==0){
         data += `<div class="d-flex justify-content-center align-items-center py-5">
-                    <img src="Images/TeachMe/no teaching videos right now.WEBP" alt='No teaching virdeos right now img'  />
+                    <img src="Images/TeachMe/no teaching videos right now.jpg" alt='No teaching virdeos right now img'  />
                 </div>`;
         return data;
     }
@@ -83,7 +83,7 @@ const getBandanasPhotos = function() {
     
     if(imgs.length==0){
         data += `<div class="d-flex justify-content-center align-items-center py-5">
-                    <img src="Images/TeachMe/no teaching videos right now.WEBP" alt='No teaching virdeos right now img'  />
+                    <img src="Images/TeachMe/no teaching videos right now.jpg" alt='No teaching virdeos right now img'  />
                 </div>`;
         return data;
     }
@@ -103,7 +103,7 @@ const getSweaterPhotos = function() {
 
     if(imgs.length == 0) {
         data += `<div class="d-flex justify-content-center align-items-center py-5">
-                    <img src="Images/TeachMe/no teaching videos right now.WEBP" alt='No teaching virdeos right now img'  />
+                    <img src="Images/TeachMe/no teaching videos right now.jpg" alt='No teaching virdeos right now img'  />
                 </div>`;
         return data;
     }
@@ -123,7 +123,7 @@ const getCarpetsPhotos = function() {
 
     if(imgs.length == 0) {
         data += `<div class="d-flex justify-content-center align-items-center py-5">
-                    <img src="Images/TeachMe/no teaching videos right now.WEBP" alt='No teaching virdeos right now img'  />
+                    <img src="Images/TeachMe/no teaching videos right now.jpg" alt='No teaching virdeos right now img'  />
                 </div>`;
         return data;
     }
@@ -143,7 +143,7 @@ const getBookCoversPhotos = function() {
 
     if(imgs.length == 0) {
         data += `<div class="d-flex justify-content-center align-items-center py-5">
-                    <img src="Images/TeachMe/no teaching videos right now.WEBP" alt='No teaching virdeos right now img'  />
+                    <img src="Images/TeachMe/no teaching videos right now.jpg" alt='No teaching virdeos right now img'  />
                 </div>`;
         return data;
     }
