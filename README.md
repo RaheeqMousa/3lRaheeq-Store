@@ -2,7 +2,7 @@
 This is a simple e-commerce website built with HTML,CSS, and JavaScript. It provides a user-friendly interface to browse products. The website is designed to be responsive and functional on both desktop and mobile devices.
 
 # Live Demo
-[View 3lRaheeq App]:([https://goqwikly.onrender.com](https://raheeqmousa.github.io/3lRaheeq-Store/))
+[View 3lRaheeq App]:(https://raheeqmousa.github.io/3lRaheeq-Store/))
 
 ## Features
 
