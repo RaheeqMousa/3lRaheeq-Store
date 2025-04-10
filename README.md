@@ -18,3 +18,4 @@ This is a simple e-commerce website built with HTML,CSS, and JavaScript. It prov
 - **Styled Components or CSS Modules**: For styling the components.
 - **Bootstrap**: For responsive layout and pre-styled components.
 - **Local Storage**: Used exclusively for managing login sessions by storing authentication data in the browser.
+- **Responsive Design (Flexbox)**
